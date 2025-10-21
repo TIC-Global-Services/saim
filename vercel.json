@@ -1,20 +1,24 @@
 {
-  "rewrites": [
+  "redirects": [
     {
       "source": "/about",
-      "destination": "https://app.saim.ai/about"
+      "destination": "https://app.saim.ai/about",
+      "permanent": false
     },
     {
       "source": "/community",
-      "destination": "https://app.saim.ai/community"
+      "destination": "https://app.saim.ai/community",
+      "permanent": false
     },
     {
       "source": "/contact",
-      "destination": "https://app.saim.ai/contact"
+      "destination": "https://app.saim.ai/contact",
+      "permanent": false
     },
     {
       "source": "/login",
-      "destination": "https://app.saim.ai/login"
+      "destination": "https://app.saim.ai/login",
+      "permanent": false
     }
   ]
 }
