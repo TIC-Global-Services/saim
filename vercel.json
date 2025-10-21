@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/about",
+      "destination": "https://app.saim.ai/about"
+    },
+    {
+      "source": "/community",
+      "destination": "https://app.saim.ai/community"
+    },
+    {
+      "source": "/contact",
+      "destination": "https://app.saim.ai/contact"
+    },
+    {
+      "source": "/login",
+      "destination": "https://app.saim.ai/login"
+    }
+  ]
+}
