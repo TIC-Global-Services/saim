@@ -6276,6 +6276,67 @@ figcaption {
   transform: rotate(-20deg)perspective(1000px);
 }
 
+.blur-block-p {
+  z-index: -10;
+  background-color: var(--blur-blue);
+  filter: blur(200px);
+  border-radius: 100%;
+  width: 50em;
+  height: 24em;
+  position: absolute;
+  bottom: -4em;
+  left: -15em;
+  transform: rotate(-20deg)perspective(1000px);
+}
+
+
+.blur-block-right {
+   z-index: -10;
+  background-color: var(--blur-blue);
+  filter: blur(150px);
+  border-radius: 100%;
+  width: 50em;
+  height: 24em;
+  position: absolute;
+  bottom: 10em;
+  right: 10em;
+  transform: rotate(-20deg)perspective(1000px);
+}
+
+
+.blur-block-right-p {
+   z-index: -10;
+  background-color: var(--blur-blue);
+  filter: blur(150px);
+  border-radius: 100%;
+  width: 50em;
+  height: 24em;
+  position: absolute;
+  bottom: -40em;
+  right: 10em;
+  transform: rotate(-20deg)perspective(1000px);
+}
+
+.blur-block-left-p {
+   z-index: -10;
+  background-color: var(--blur-blue);
+  filter: blur(150px);
+  border-radius: 100%;
+  width: 50em;
+  height: 24em;
+  position: absolute;
+  bottom: 40em;
+  left: 10em;
+  transform: rotate(-20deg)perspective(1000px);
+}
+
+.paragraph-head {
+  margin-top: 10px;
+  line-height: 1.7em;
+  font-size: 1.1em;
+  width: 50%;
+}
+
 .circle-b {
   transform-style: preserve-3d;
   justify-content: center;

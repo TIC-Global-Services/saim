@@ -1,24 +1,29 @@
 {
-  "redirects": [
+  "version": 2,
+  "routes": [
     {
-      "source": "/about",
-      "destination": "https://app.saim.ai/about",
-      "permanent": false
+      "src": "^/about$",
+      "dest": "/index.html#about"
     },
     {
-      "source": "/community",
-      "destination": "https://app.saim.ai/community",
-      "permanent": false
+      "src": "^/community$",
+      "dest": "/index.html#community"
     },
     {
-      "source": "/contact",
-      "destination": "https://app.saim.ai/contact",
-      "permanent": false
+      "src": "^/pricing$",
+      "dest": "/index.html#pricing"
     },
     {
-      "source": "/login",
-      "destination": "https://app.saim.ai/login",
-      "permanent": false
+      "src": "^/contact$",
+      "dest": "/index.html#contact"
+    },
+    {
+      "src": "^/privacy$",
+      "dest": "/privacy.html"
+    },
+    {
+      "src": "^/terms$",
+      "dest": "/terms.html"
     }
   ]
 }
