@@ -6499,8 +6499,41 @@ figcaption {
 
 .about-us{
   text-align: start;
-  width: 50%;
+  width: 80%;
   font-size: 20px;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.founder {
+  width: 50%;
+  border-radius: 10px;
+}
+
+/* Tablet view */
+@media (max-width: 1024px) {
+  .about-section {
+    flex-direction: column;
+  }
+  .founder {
+  width: 100%;
+  border-radius: 10px;
+}
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .about-section {
+    flex-direction: column;
+  }
+  .founder {
+  margin-top: 8%;
+  width: 100%;
+  border-radius: 10px;
+}
 }
 
 
